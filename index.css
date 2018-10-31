@@ -1,0 +1,37 @@
+body {
+    background-color: SlateBlue;
+    font-family: arial, helvetica, sans-serif;
+    letter-spacing: normal;
+     }
+     
+h1 {
+    text-align: center;
+    color: white;
+     }
+h2 {
+    text-align: center;
+    color: violet
+    
+}
+     
+h3 {
+    text-align: left;
+    color: white;
+}
+
+ul.a {
+    list-style-type: circle;
+    
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ul.c {
+    list-style-type: circle;
+}
+     
+     
+    
+     
