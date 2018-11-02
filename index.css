@@ -3,7 +3,7 @@ body {
     font-family: arial, helvetica, sans-serif;
     letter-spacing: normal;
      }
-     
+     /* start text details*/
 h1 {
     text-align: center;
     color: White;
@@ -17,9 +17,11 @@ h2 {
      
 h3 {
     text-align: left;
-    color: Khaki ;
+    color: Navy ;
     text-decoration: underline;
 }
+    /* end text details */
+    /* start list details */
 
 ul.a {
     list-style-type: circle;
@@ -33,7 +35,17 @@ ul.b {
 ul.c {
     list-style-type: circle;
 }
-     
+    /* end list details */
+    /* start section details */
+#ABC {
+    background-color: Khaki ;
+}
+#ABCD {
+    background-color: Khaki ;
+}
+    /* end section details */
+    
+   /* most recent update by EKB on November 1, 2018 */
      
     
      
