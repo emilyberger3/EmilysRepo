@@ -18,7 +18,6 @@ h2 {
 h3 {
     text-align: left;
     color: Navy ;
-    text-decoration: underline;
 }
     /* end text details */
     /* start list details */
@@ -44,8 +43,11 @@ ul.c {
     background-color: Khaki ;
 }
     /* end section details */
+p {
+    text-align: center;
+
     
-   /* most recent update by EKB on November 4, 2018 */
+   /* most recent update by EKB on November 6, 2018 */
      
     
      
