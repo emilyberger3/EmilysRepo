@@ -1,5 +1,5 @@
 body {
-    background-color: PaleVioletRed ;
+     background: linear-gradient(to bottom, #ffccff 0%, #ccccff 100%);
     font-family: arial, helvetica, sans-serif;
     letter-spacing: normal;
      }
@@ -22,18 +22,11 @@ h3 {
     /* end text details */
     /* start list details */
 
-ul.a {
+ul {
     list-style-type: circle;
     
 }
 
-ul.b {
-    list-style-type: square;
-}
-
-ul.c {
-    list-style-type: circle;
-}
     /* end list details */
     /* start section details */
 #ABC {
@@ -44,10 +37,35 @@ ul.c {
 }
     /* end section details */
 p {
+    text-align: left;
+}
+.firstp {
     text-align: center;
-
+}
+.secondp {
+    text-align: left;
+}
+#link {
+    display:block; 
+    text-align: center;
+    /* 2018-11-07 ebb: We got this to work to center the link by changing its display property.
+     * By default an <a> element is meant to be inline, to "go with the flow" of the text.
+     * We changed it to display:block to make it like a BLOCK on the page, which then allowed us 
+     * to use text-align to center it.   */
+}
+.thirdp {
+    text-align: left;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
     
-   /* most recent update by EKB on November 6, 2018 */
+   /* most recent update by EKB on November 8, 2018 */
      
     
      
