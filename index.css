@@ -65,7 +65,7 @@ p {
     text-align: center;
 }
 /* creating a button for my link */
-div {
+div.resumelink {
   color: #FFF;
   background-color: white;
   font-weight: bold;
@@ -75,14 +75,6 @@ div {
   border-radius: 5px;
   width: 150px;
 }
-/* footer element has been added */
-.fourthp {
-     padding: 40px;
-     border-bottom: 7px solid #5D6063;
-     text-align: center;
-     color: black;
-     background-color: white;
-}
 /* adding image details */
 img {
     padding: 40px;
@@ -90,7 +82,29 @@ img {
     width: 93%;
     height: auto;
 }    
-   /* most recent update by EKB on November 11, 2018 */
+div.allimages {
+    display: flex;
+    justify-content: space-between;
+    align-text: center;
+    height: 375px;
+    width: 350px;
+}
+/* made a flex box nov 15, 2018 */
+div.photoshoppics {
+    display: flex;
+    justify-content: space-between;
+    height: 375px;
+    width: 350px;
+}
+/* created a flexbox with my photoshopped pictures */
+div.svggraph {
+    display: flex;
+    justify-content: center;
+    height: 750px;
+    width: 1024px;
+}
+
+   /* most recent update by EKB on November 18, 2018 */
      
     
      
