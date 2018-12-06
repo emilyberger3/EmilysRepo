@@ -8,7 +8,6 @@ buttons[1].addEventListener('click', changeColor2, false)
 buttons[2].addEventListener('click', newFunction, false)
 }
 
-
 function changeColor() {
 var p1 = document.getElementById("colorToggle")
 {p1.style.backgroundColor = "skyblue";}
