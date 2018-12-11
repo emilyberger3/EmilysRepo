@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-        <head>
+        
+    <head>
             <title>Pictures</title>
             <meta charset="UTF-8" />
             <meta name="author" content="Emily Berger" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="stylesheet" type="text/css" href="index.css"/>
             <script type="text/javascript" src="webjava.js">/**/</script>
-            <!-- attached javascript page 11/30/2018 -->
             <script type="text/javascript">window.addEventListener('DOMContentLoaded', alert('The following are pictures of my dog, a car I love, and the beach in Punta Cana!'), false);</script>
-            <!-- script added 11/28/2018 -->
         </head>
+    
         <body>
             <h1>Emily Berger</h1>
             <h2>Pictures</h2>
             <p id="date"></p>
             <script>
-            var d = new Date();
-            document.getElementById("date").innerHTML = d;
-        </script>
-            <!-- EKB added date on 11/28/2018 -->
+                var d = new Date();
+                document.getElementById("date").innerHTML = d;
+            </script>
+   
             <div class="resumelink">
                 <a href="index.html" id="link">Home</a>
             </div>
@@ -37,12 +37,11 @@
             <div class="svggraph">
                 <img src="ekbsvg.svg" alt="graph">
             </div>
-            <button onclick="document.getElementById('myImage').src='babypen.jpg'">turn to baby penguin</button>
             
-            <img id="myImage" src="adultpen.jpg" style="width:100px">
-                
-                <button onclick="document.getElementById('myImage').src='adultpen.jpg'">turn to adult penguin</button>
-             <!-- Added image switching on 11/30/2018 -->
+            <button onclick="document.getElementById('myImage').src='babypen.jpg'">turn to baby penguin</button>
+            <img id="myImage" src="adultpen.jpg" style="width:100px">   
+            <button onclick="document.getElementById('myImage').src='adultpen.jpg'">turn to adult penguin</button>
+
             <footer>
                 <p>Published by Emily Berger</p>
                 <!--#include virtual="menu.html" -->
@@ -50,4 +49,3 @@
             
         </body
 </html>
-<!-- most recent update by EKB on November 30, 2018 -->

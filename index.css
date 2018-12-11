@@ -3,7 +3,7 @@ body {
     font-family: arial, helvetica, sans-serif;
     letter-spacing: normal;
      }
-     /* start text details*/
+
 h1 {
     text-align: center;
     color: White;
@@ -19,43 +19,42 @@ h3 {
     text-align: left;
     color: Navy ;
 }
-    /* end text details */
-    /* start list details */
 
 ul {
     list-style-type: circle;
     
 }
 
-    /* end list details */
-    /* start section details */
+
 #ABC {
     background-color: Khaki ;
 }
+
 #ABCD {
     background-color: Khaki ;
 }
-    /* end section details */
+   
 p {
     text-align: left;
 }
+
 .firstp {
     text-align: center;
 }
+
 .secondp {
     text-align: left;
 }
+
 #link {
     display:block; 
     text-align: center;
-    /* 2018-11-07 ebb: We got this to work to center the link by changing its display property.
-     * By default an <a> element is meant to be inline, to "go with the flow" of the text.
-     * We changed it to display:block to make it like a BLOCK on the page, which then allowed us 
-     * to use text-align to center it.   */
+
 }
 .thirdp {
     text-align: left;
 }
+
 .footer {
     left: 0;
     bottom: 0;
@@ -64,7 +63,7 @@ p {
     color: white;
     text-align: center;
 }
-/* creating a button for my link */
+
 div.resumelink {
   color: #FFF;
   background-color: white;
@@ -75,13 +74,14 @@ div.resumelink {
   border-radius: 5px;
   width: 150px;
 }
-/* adding image details */
+
 img {
     padding: 40px;
     border-radius: 30%;
     width: 93%;
     height: auto;
 }    
+
 div.allimages {
     display: flex;
     justify-content: space-between;
@@ -89,21 +89,21 @@ div.allimages {
     height: 375px;
     width: 350px;
 }
-/* made a flex box nov 15, 2018 */
+
 div.photoshoppics {
     display: flex;
     justify-content: space-between;
     height: 375px;
     width: 350px;
 }
-/* created a flexbox with my photoshopped pictures */
+
 div.svggraph {
     display: flex;
     justify-content: center;
     height: 750px;
     width: 1024px;
 }
-/* created a toggle swtich 12/4/2018 */
+
 .switch {
   position: relative;
   display: inline-block;
@@ -157,12 +157,5 @@ input:checked + .slider:before {
 }
 
 #toggle {
-    text-align: left;
-    
+    text-align: left; 
 }
-
-
-   /* most recent update by EKB on December 4, 2018 */
-     
-    
-     
